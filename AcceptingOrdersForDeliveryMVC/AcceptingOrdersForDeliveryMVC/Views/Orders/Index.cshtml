@@ -1,0 +1,32 @@
+@model List<AcceptingOrdersForDeliveryMVC.Models.Order>
+
+<body>
+    <h1>Список заказов</h1>
+    <a asp-action="Create" class="button-link">Создать заказ</a>
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <div class="order-item">
+                <div class="order-column" style="flex: 0 0 40%; padding: 10px; display: flex; justify-content: center; align-items: center; text-align: center">
+                    @item.OrderNumber
+                </div>
+                <div class="order-column" style="flex: 0 0 40%; padding: 10px; display: flex; justify-content: center; align-items: center; text-align: center">
+                    <div class="order-info">
+                        <div class="order-info-column">
+                            <div class="order-info-row">Город получателя:</div>
+                            <div class="order-info-row">Дата получения:</div>
+                        </div>
+                        <div class="order-info-column">
+                            <div class="order-info-row">@item.ReceiverCity</div>
+                            <div class="order-info-row">@item.PickupDate.ToShortDateString()</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-column" style="flex: 0 0 20%; display: flex; justify-content: center; align-items: rigth; text-align: center">
+                    <a asp-action="Details" asp-route-id="@item.Id" class="button-link">Подробнее</a>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+

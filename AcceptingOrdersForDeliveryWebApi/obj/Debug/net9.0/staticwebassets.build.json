@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fa9XZOrZvH+4cQbbMR8pHh+85BZauX2cmSZRrU+aapo=",
+  "Source": "AcceptingOrdersForDelivery",
+  "BasePath": "_content/AcceptingOrdersForDelivery",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

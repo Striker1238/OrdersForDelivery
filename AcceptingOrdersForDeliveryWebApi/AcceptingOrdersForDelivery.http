@@ -1,0 +1,6 @@
+@AcceptingOrdersForDelivery_HostAddress = http://localhost:5108
+
+GET {{AcceptingOrdersForDelivery_HostAddress}}/applicationcontext/
+Accept: application/json
+
+###

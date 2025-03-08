@@ -1,0 +1,13 @@
+@model AcceptingOrdersForDeliveryMVC.Models.Order
+
+<form asp-action="Create">
+    <h1>Создать заказ</h1>
+        <label asp-for="SenderCity">Город отправителя: <input asp-for="SenderCity" type="text" name="SenderCity" required></label><br>
+        <label asp-for="SenderAddress">Адрес отправителя: <input asp-for="SenderAddress" type="text" name="SenderAddress" required></label><br>
+        <label asp-for="ReceiverCity">Город получателя: <input asp-for="ReceiverCity" type="text" name="ReceiverCity" required></label><br>
+        <label asp-for="ReceiverAddress">Адрес получателя: <input asp-for="ReceiverAddress" type="text" name="ReceiverAddress" required></label><br>
+        <label asp-for="Weight">Вес груза (кг): <input asp-for="Weight" type="number" name="Weight" required></label><br>
+        <label asp-for="PickupDate">Дата забора груза: <input asp-for="PickupDate" type="date" name="PickupDate" required></label><br>
+        <button type="submit" class="button-link">Создать заказ</button>
+    <a asp-action="Index" class="button-link">Назад к списку</a>
+</form>

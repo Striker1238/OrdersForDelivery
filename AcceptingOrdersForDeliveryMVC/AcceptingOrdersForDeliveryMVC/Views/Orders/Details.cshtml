@@ -1,0 +1,24 @@
+@model AcceptingOrdersForDeliveryMVC.Models.Order
+<body>
+    <h1>Детали заказа @Model.OrderNumber</h1>
+    <div class="container">
+        <h2>Отправитель</h2>
+        <p>Город: @Model.SenderCity</p>
+        <p>Адрес: @Model.SenderAddress</p>
+    </div>
+
+    <div class="container">
+        <h2>Получатель</h2>
+        <p>Город: @Model.ReceiverCity</p>
+        <p>Адрес: @Model.ReceiverAddress</p>
+    </div>
+
+    <div class="container">
+        <h2>Дополнительные сведения</h2>
+        <p>Вес груза: @Model.Weight кг</p>
+        <p>Дата получения: @Model.PickupDate.ToLongDateString()</p>
+    </div>
+
+    <a asp-action="Index" class="btn btn-secondary">Назад к списку</a>
+</body>
+
