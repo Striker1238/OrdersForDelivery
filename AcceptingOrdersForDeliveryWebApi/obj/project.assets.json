@@ -755,9 +755,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\AcceptingOrdersForDelivery\\AcceptingOrdersForDeliveryWebApi\\AcceptingOrdersForDelivery.csproj",
-      "projectName": "AcceptingOrdersForDelivery",
-      "projectPath": "D:\\Projects\\AcceptingOrdersForDelivery\\AcceptingOrdersForDeliveryWebApi\\AcceptingOrdersForDelivery.csproj",
+      "projectUniqueName": "D:\\Projects\\AcceptingOrdersForDelivery\\AcceptingOrdersForDeliveryWebApi\\AcceptingOrdersForDeliveryWebApi.csproj",
+      "projectName": "AcceptingOrdersForDeliveryWebApi",
+      "projectPath": "D:\\Projects\\AcceptingOrdersForDelivery\\AcceptingOrdersForDeliveryWebApi\\AcceptingOrdersForDeliveryWebApi.csproj",
       "packagesPath": "C:\\Users\\stalk\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\AcceptingOrdersForDelivery\\AcceptingOrdersForDeliveryWebApi\\obj\\",
       "projectStyle": "PackageReference",

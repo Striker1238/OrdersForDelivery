@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AcceptingOrdersForDelivery")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AcceptingOrdersForDeliveryWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dc4088f93c5de529450fde94a77013c46a16b13")]
-[assembly: System.Reflection.AssemblyProductAttribute("AcceptingOrdersForDelivery")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AcceptingOrdersForDelivery")]
+[assembly: System.Reflection.AssemblyProductAttribute("AcceptingOrdersForDeliveryWebApi")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AcceptingOrdersForDeliveryWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
